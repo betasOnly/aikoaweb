@@ -1,0 +1,45 @@
+name: aikoaweb
+description: The website for advertising purposes of the Aikoa app.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  animations: ^1.1.2
+  url_launcher: ^5.7.10
+  video_player: ^1.0.0
+  webview_flutter: ^1.0.7
+  universal_html: ^1.2.3
+  responsive_framework: ^0.0.14
+  scrollable_positioned_list: ^0.1.9
+  flutter_svg: ^0.19.2+1
+  buy_me_a_coffee_widget: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+   - assets/videos/
+  fonts:
+    - family: Google Sans
+      fonts:
+        - asset: assets/fonts/product_sans_regular.ttf
+        - asset: assets/fonts/product_sans_bold.ttf
+          weight: 700
+        - asset: assets/fonts/product_sans_italic.ttf
+          style: italic
+    - family: Roboto
+      fonts:
+          - asset: assets/fonts/roboto_regular.ttf
+          - asset: assets/fonts/roboto_bold.ttf
+            weight: 700
+          - asset: assets/fonts/roboto_italic.ttf
+            style: italic
